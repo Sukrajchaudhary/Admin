@@ -1,0 +1,72 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.cart-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y: auto;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+/* pagint */
+.paginations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  bottom: 0%;
+  right: 0%;
+  position: sticky;
+}
+.pages {
+  display: flex;
+  height: 50px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.pages h1 {
+  border: 1px solid red;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+button{
+    background-color: blue;
+    border: 1px solid black;
+    width: 70px;
+    height: 30px;
+    color: white;
+    
+}
